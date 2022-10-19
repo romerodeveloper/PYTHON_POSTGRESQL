@@ -266,3 +266,7 @@
         Id persona: 11, Nombre: pedro,
         Apellido: najera, Email: pnajera@gmail.com
         
+03:57:59 PM: DEBUG [conexion.py: 30]  Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000025B74CC8670>
+03:57:59 PM: DEBUG [conexion.py: 43]  Conexion obtenida del pool: <connection object at 0x0000025B73218E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:57:59 PM: DEBUG [conexion.py: 49]  Regresamos la conexion al pool: <connection object at 0x0000025B73218E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:57:59 PM: DEBUG [conexion.py: 43]  Conexion obtenida del pool: <connection object at 0x0000025B73218E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
