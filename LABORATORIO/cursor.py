@@ -23,9 +23,3 @@ class CursorDelPool:
             log.debug('Commit de la transaccion')
         self._cursor.close()
         Conexion.LiberarConexion(self._conn)
-
-if __name__ == '__main__':
-    with CursorDelPool() as cursor:
-        log.debug('Dentro del bloque with')
-        cursor.execute('Select * from usuario')
-        log.debug(cursor.fetchall())

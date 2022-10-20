@@ -48,26 +48,4 @@ class PersonaDAO:
             log.debug(f'persona eliminada: {persona}')
             return cursor.rowcount 
 
-
-if __name__ == '__main__':
-    #insertar un registro
-    persona1 = Persona(nombre='aljandra', apellido='tellez', email='atellez@gmail.com')
-    personas_insertadas = PersonaDAO.insertar(persona1)
-    log.debug(f'personas insertadas {personas_insertadas}')
-    
-    #actualizar un registro
-    #persona1 = Persona(1, 'juan', 'perez', 'jperez@gmail.com')
-    #persona_actualizada = PersonaDAO.actualizar(persona1)
-    #log.debug(f'personas insertadas {persona_actualizada}')
-
-    #Eliminar registro
-    #persona1 = Persona(id_persona=12)
-    #persona_eliminada = PersonaDAO.eliminar(persona1) 
-    #log.debug(f'Personas eliminadas: {persona_eliminada}')
-
-    #seleccionar objetos
-    personas = PersonaDAO.seleccionar()
-    for persona in personas:
-        log.debug(persona)
-
-        
+  
