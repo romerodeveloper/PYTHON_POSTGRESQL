@@ -442,3 +442,107 @@
         Id persona: 13, Nombre: aljandra,
         Apellido: tellez, Email: atellez@gmail.com
         
+04:58:24 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+04:58:24 PM: DEBUG [conexion.py: 31] A ocurrido un error en el pool invalid dsn: invalid connection option "username"
+
+04:59:49 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+04:59:49 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000016A1479BD00>
+04:59:49 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x0000016A14653EF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+04:59:49 PM: DEBUG [cursor.py: 29] Dentro del bloque with
+04:59:49 PM: DEBUG [cursor.py: 31] []
+04:59:49 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+04:59:49 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+04:59:49 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x0000016A14653EF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:00:55 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:00:55 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000228FC89BD60>
+05:00:55 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x00000228FC753EF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:00:55 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:00:55 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+05:00:55 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x00000228FC753EF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:08:22 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:08:22 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000228472E7F10>
+05:08:22 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x0000022844DD3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:08:22 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:08:22 PM: DEBUG [cursor.py: 20] se produjo un error de tipo <class 'IndexError'> <traceback object at 0x00000228472F9D00>
+05:08:22 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x0000022844DD3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:12:47 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:12:47 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000174721D6200>
+05:12:47 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x00000174700A3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:12:47 PM: DEBUG [usuario_dao.py: 28] Se realizo correctamente el ingreso del usuario 
+        Id Usuario: None, username: nicolas, password: 123
+        
+05:12:47 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:12:47 PM: DEBUG [cursor.py: 20] se produjo un error de tipo <class 'TypeError'> <traceback object at 0x00000174721F9480>
+05:12:47 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x00000174700A3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:14:47 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:14:47 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000027B42796200>
+05:14:47 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x0000027B40663AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:14:47 PM: DEBUG [usuario_dao.py: 28] Se realizo correctamente el ingreso del usuario 
+        Id Usuario: None, username: nicolas, password: 123
+        
+05:14:47 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:14:47 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+05:14:47 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x0000027B40663AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:14:47 PM: INFO [menu_app_usuario.py: 25] Datos insertados 1
+05:15:01 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:15:01 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x0000027B40663AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:15:01 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:15:01 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+05:15:01 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x0000027B40663AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:15:01 PM: INFO [menu_app_usuario.py: 19] 
+        Id Usuario: 2, username: n, password: 1
+        
+05:17:08 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:17:08 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x0000027B40663AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:17:08 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:17:08 PM: DEBUG [cursor.py: 20] se produjo un error de tipo <class 'psycopg2.errors.StringDataRightTruncation'> <traceback object at 0x0000027B427B9340>
+05:17:08 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x0000027B40663AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:19:43 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:19:43 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000025DDABF7BB0>
+05:19:43 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x0000025DD8943AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:19:43 PM: DEBUG [usuario_dao.py: 28] Se realizo correctamente el ingreso del usuario 
+        Id Usuario: None, username: tati, password: te quiero
+        
+05:19:43 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:19:43 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+05:19:43 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x0000025DD8943AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:19:43 PM: INFO [menu_app_usuario.py: 25] Datos insertados 1
+05:27:59 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:27:59 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001FFC45E83A0>
+05:27:59 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x000001FFC20D3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:27:59 PM: DEBUG [usuario_dao.py: 36] Se actualizo correctamente el usuario 
+        Id Usuario: 2, username: nicolas, password: 123
+        
+05:27:59 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:27:59 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+05:27:59 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x000001FFC20D3AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:27:59 PM: INFO [menu_app_usuario.py: 32] Datos actualizados 1
+05:34:56 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:34:56 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000002C2AC2D05B0>
+05:34:56 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x000002C2A9E13AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:34:56 PM: DEBUG [usuario_dao.py: 44] Se elimino correctamente el usuario 
+        Id Usuario: 2, username: None, password: None
+        
+05:34:56 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:34:56 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+05:34:56 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x000002C2A9E13AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:34:56 PM: INFO [menu_app_usuario.py: 37] Datos actualizados 1
+05:35:04 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:35:04 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x000002C2A9E13AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:35:04 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:35:04 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+05:35:04 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x000002C2A9E13AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:35:04 PM: INFO [menu_app_usuario.py: 19] 
+        Id Usuario: 3, username: tati                , password: te quiero           
+        
+05:36:01 PM: DEBUG [cursor.py: 11] Inicio del metodo with
+05:36:01 PM: DEBUG [conexion.py: 28] Se creo el pool de forma exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000016A1E2BFF70>
+05:36:01 PM: DEBUG [conexion.py: 39] Se creo la conexion de forma exitosa <connection object at 0x0000016A1E153AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+05:36:01 PM: DEBUG [cursor.py: 17] Estamos en el metodo exit
+05:36:01 PM: DEBUG [cursor.py: 23] Commit de la transaccion
+05:36:01 PM: DEBUG [conexion.py: 45] Se libero la conexion de forma correcta <connection object at 0x0000016A1E153AB0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:36:01 PM: INFO [menu_app_usuario.py: 19] 
+        Id Usuario: 3, username: tati                , 
+        password: te quiero           
+        
+05:36:08 PM: INFO [menu_app_usuario.py: 39] finalizacion del aplicativo
